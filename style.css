@@ -73,10 +73,7 @@ form button {
     color: red;
     padding: 50px;
 }
-.numbers {
-    width: 150px;
-}
-}
+
 @media screen and (max-width: 950px) {
   
 }
