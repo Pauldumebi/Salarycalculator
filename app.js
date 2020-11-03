@@ -18,8 +18,8 @@ document.querySelector('.submit').addEventListener('click', function() {
         document.querySelector('.totalpayment').textContent = ` ${fname} your total payment for the day is ${totalpayment}  naira`
        
     } else  {
-         document.querySelector('.totalpayment').textContent = ` ${fname} your total payment for the day is ${totalpayment}  naira`
-          document.querySelector('.overtime').textContent = ` Including your overtime payment of ${overtime} naira`
+         document.querySelector('.totalpayment').textContent = ` ${fname} your total payment for the day is ₦${totalpayment}  naira`
+          document.querySelector('.overtime').textContent = ` Including your overtime payment of ₦${overtime}`
     }
  
 })
