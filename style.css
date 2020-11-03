@@ -76,43 +76,16 @@ form button {
 .numbers {
     width: 150px;
 }
-@media (max-width: 500px) {
-body {
-background: coral;
-height: 100%;
 }
-.container {
-   
-    height: 100%;
+@media screen and (max-width: 950px) {
+  
 }
-
-nav .logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+@media screen and (max-width: 650px) {
 
 }
 
-main > p {
-    margin-top: 0.5rem;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    padding: 0 1.3rem; 
+@media screen and (max-width: 480px) {
+    form {
+        padding: 20px;
+    }
 }
-
-.display {
-    margin-bottom: 2rem;
-    padding: 0 1.3rem; 
-}
-
-form button {
-    margin-top: 1rem;
-    padding: .5rem 1rem;
-    background: teal;
-    font-size:  1.5rem;
-    text-align: center;
-    border-radius: 8px;
-}
-}       
