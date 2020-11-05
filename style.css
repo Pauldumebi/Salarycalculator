@@ -11,24 +11,30 @@ nav {
     padding: 3%;
     margin-bottom: .3rem;
 }
-
-nav .logo img {
-    height: 3rem;
-}
-
 nav .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
-
 nav .logo h3 {
     font-size: 2rem;
     padding-top: .6rem;
     margin-left: -0.5rem;
+}
+.error-div {
+    /* align-items: center;
+    justify-content: center; */
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+.error {
+    color: red;
+    /* border: .1rem red solid; */
+    /* padding: 10px; */
+    /* width: fit-content; */
 }
 .form {
     display: flex;
@@ -43,7 +49,6 @@ form {
     display: grid;
     grid-template-columns: 1fr;
 }
-
 form  input {
    height: 30px;
    width: 300px;
@@ -53,7 +58,6 @@ form  input {
    margin: 0.5rem 0;
    font-size: 16px;
 }
-
 form button {
     margin-top: .5rem;
     padding: .4rem 1rem;
@@ -66,10 +70,8 @@ form button {
     color: white;
 }
 .display {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: none;
+    text-align: center;
     color: red;
     padding: 50px;
 }
